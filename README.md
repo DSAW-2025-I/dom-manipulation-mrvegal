@@ -1,6 +1,15 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hguNOMc5)
 # Reto de Carrusel Básico con HTML, CSS y JavaScript
 
 ![Design preview for the Carousel component coding challenge](./assets/mockup.png)
+
+
+Por: Juan Felipe Vega Loaiza
+![Captura de pantalla](assets/Captura%20de%20pantalla%202025-02-19%20211225.png)
+
+
+
+
 
 Este proyecto consiste en resolver un reto de desarrollo web en el que se debe crear un carrusel básico utilizando HTML, CSS y JavaScript. El objetivo principal es crear un componente funcional que permita a los usuarios navegar entre tres imágenes predeterminadas.
 
