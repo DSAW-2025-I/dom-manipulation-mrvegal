@@ -3,7 +3,13 @@
 
 ![Design preview for the Carousel component coding challenge](./assets/mockup.png)
 
-Juan Felipe Vega Loaiza
+
+Por: Juan Felipe Vega Loaiza
+![Captura de pantalla](assets/Captura%20de%20pantalla%202025-02-19%20211225.png)
+
+
+
+
 
 Este proyecto consiste en resolver un reto de desarrollo web en el que se debe crear un carrusel básico utilizando HTML, CSS y JavaScript. El objetivo principal es crear un componente funcional que permita a los usuarios navegar entre tres imágenes predeterminadas.
 
