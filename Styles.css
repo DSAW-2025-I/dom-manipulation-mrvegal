@@ -1,8 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     display: flex;
@@ -11,6 +13,7 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
+
 
 .carousel {
     position: relative;
@@ -28,11 +31,13 @@ body {
     justify-content: center;
 }
 
+
 .carousel-track {
     display: flex;
-    width: 300%;
+    width: calc(100% * 3); 
     transition: transform 0.5s ease-in-out;
 }
+
 
 .carousel-image {
     width: 100%;
@@ -40,6 +45,7 @@ body {
     object-fit: cover;
     flex: 0 0 100%;
 }
+
 
 .nav-btn {
     position: absolute;
@@ -59,17 +65,18 @@ body {
     justify-content: center;
     transition: background 0.3s;
     z-index: 10;
-    opacity: 1;
 }
 
 .nav-btn:hover {
     background: rgba(0, 0, 0, 0.8);
 }
 
+
 .nav-btn:disabled {
     opacity: 0.3;
     cursor: not-allowed;
 }
+
 
 #prev { left: 10px; }
 #next { right: 10px; }
@@ -85,12 +92,12 @@ body {
     }
 
     .nav-btn {
-        padding: 10px;
         font-size: 20px;
         width: 35px;
         height: 35px;
     }
 }
+
 
 @media (max-width: 480px) {
     .carousel {
@@ -102,7 +109,6 @@ body {
     }
 
     .nav-btn {
-        padding: 8px;
         font-size: 18px;
         width: 30px;
         height: 30px;
